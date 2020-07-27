@@ -1,0 +1,30 @@
+{
+    "name": "fujinghua/laravel-wxwork",
+    "description": "WxWork SDK for Laravel",
+    "keywords": ["wxwork","qywechat", "qyweixin","laravel", "sdk"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fujinghua",
+            "email": "909387235@qq.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "FuJinghua\\LaravelWxWork\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FuJinghua\\LaravelWxWork\\ServiceProvider"
+            ],
+            "aliases": {
+                "EasyWxWork": "FuJinghua\\LaravelWxWork\\Facade"
+            }
+        }
+    }
+}
+
